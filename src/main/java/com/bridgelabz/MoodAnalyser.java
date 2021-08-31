@@ -22,11 +22,11 @@ public class MoodAnalyser {
         System.out.println("My mood is:" + obj_swing)
 
         try {
-            validate("Enjoying");
-        } catch (InvalidAgeException ex) {
+            validate(" ");
+        } catch (NullPointerException npe) {
             System.out.println("Caught the Exception");
 
-            System.out.println("Exception ocuured:" + ex);
+            System.out.println("Exception occured:" + npe);
 
         }
     }
